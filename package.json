@@ -1,0 +1,18 @@
+{
+  "name": "rhs-color",
+  "version": "1.0.0",
+  "description": "Royal Horticulture Society color conversion utilities",
+  "main": "index.js",
+  "bin": {
+    "rhs-color": "./bin/rhs.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Daniel G. Taylor <danielgtaylor@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
