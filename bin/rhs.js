@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 const rhs = require('..');
 
-const i = process.argv[2];
+if (process.argv.length < 3) {
+  console.log('Usage: rhs-color <RHS or hex color value>')
+  return 255;
+}
 
-console.log(i);
+const i = process.argv[2];
 
 if (/^[0-9]{1,3}[a-z]$/i.test(i)) {
   console.log(`${i.toUpperCase()} => [${rhs.rgb(i).join(',')}] #${rhs.hex(i)} ${rhs.name(i)}`);

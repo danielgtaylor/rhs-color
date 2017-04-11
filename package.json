@@ -1,6 +1,6 @@
 {
   "name": "rhs-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Royal Horticulture Society color conversion utilities",
   "main": "index.js",
   "bin": {
